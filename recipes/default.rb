@@ -19,8 +19,7 @@
 
 require_recipe "php"
 
-php_pear "phpcs" do
+php_pear "PHP_CodeSniffer" do
   version node['phpcs']['version']
-  channel "PHP_CodeSniffer"
   action :install
 end

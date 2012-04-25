@@ -17,4 +17,4 @@
 # limitations under the License.
 #
 
-default['phpcs']['version'] = "1.3.0"
+default['phpcs']['version'] = "1.3.3"

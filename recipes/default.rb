@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-require_recipe "php"
+include_recipe "php"
 
 php_pear "PHP_CodeSniffer" do
   version node['phpcs']['version']
